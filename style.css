@@ -297,6 +297,8 @@ section .title::after{
 /* skills section styling */
 .boxx img{
     width: 300px;
+    border-radius: 15px;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
 }
 .boxx {
     display: flex;
