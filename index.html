@@ -7,6 +7,7 @@
     <title>JAYPOPS Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="gal.jpg"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/209569d4e0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -20,7 +21,7 @@
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
-        <div class="max-width">
+        <div data-aos="fade-down" class="max-width">
             <div class="logo"><a href="#">JAYPOPS.</a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
@@ -37,9 +38,9 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Welcome To My Studio!</div>
-                <div class="text-2">IT'S NICE TO MEET YOU</div>
-                <a href="#">Hire me</a>
+                <div data-aos="fade-up-right" class="text-1">Welcome To My Studio!</div>
+                <div data-aos="fade-up-right" class="text-2">IT'S NICE TO MEET YOU</div>
+                <div data-aos="fade-up-right"><a href="#">Hire me</a> </div>
             </div>
         </div>
     </section>
@@ -48,13 +49,13 @@
         <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
-                <div class="column left">
+                <div data-aos="fade-down" class="column left">
                     <img src="gal.jpg" alt="">
                 </div>
-                <div class="column right">
+                <div data-aos="fade-down" class="column right">
                     <p>My name is Timothy popularly known as Jaypops
-                        across my socials, I am a trained HTML,CSS
-                        and JAVASCRIPT programmer, I have been a developer for two years. Got
+                        across my socials, I am a trained HTML and CSS
+                        and JAVASCRIPT I have been a developer for two years. Got
                         into the web3 space early 2021, where I started off in the De-Fi and trading(cryptocurrency and Forex) space
                         till third quarter of 2021 when I now got into the NFT space.
                         The fascinating concepts of the NFT technology is one that got my
@@ -69,7 +70,7 @@
         <div class="max-width">
             <h2 class="title">My services</h2>
             <div class="serv-content">
-                <div class="card">
+                <div data-aos="fade-down" class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
@@ -78,15 +79,17 @@
                             to use, fast loading and well appealing to visitors.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div data-aos="fade-down" class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Discord Bot development</div>
-                        <p>Discord Bot development: Projects in the NFT space use discord as the
+                        <p>
+                            Discord Bot development: Projects in the NFT space use discord as the
                             major platform for community growth and development, and third
                             party bots are needed to ease server moderation and increase security.
                             I will help you create customized third party bots that are easy to
-                            operate, safe and secure.</p>
+                            operate, safe and secure.
+                        </p>
                     </div>
                 </div>
                </div>
@@ -97,7 +100,7 @@
     <section id="portfolio">
         <div class="work">
           <h2 class="title">PORTFOLIO</h2>
-            <div class="boxx">
+            <div data-aos="fade-down" class="boxx">
                 <div class="box_">
                     <a href="https://bit.ly/stormBNB">  <img src="box.jpeg" alt=""></a>
                     <h3>Frontend Developer</h3> 
@@ -106,20 +109,24 @@
                     <a href="https://planet-liard.vercel.app/"> <img src="box2.jpeg"alt=""></a> 
                     <h3>Frontend Developer</h3> 
                 </div>
-                 <div class="box_">
+                <div class="box_">
                     <a href="https://godfather-com-3r9m.vercel.app/"> <img src="box3.png"alt=""></a> 
                     <h3>Frontend Developer</h3> 
                 </div>
             </div>
     </section>
     <!-- footer section start -->
-      <footer>
+     <footer>
             <div class="reach">
                 <h3>Reach Me on</h3>
-                <h4><i class="fa-brands fa-discord"></i>jaypops#9085, Email:  teniolatimothy@gmail.com</h4>
+                <h4><i class="fa-brands fa-discord"></i>jaypops#9085, Email:  teniolatimthy@gmail.com</h4>
             </div>
             <span>Created By JAYPOPS | <span class="far fa-copyright"></span> 2022.</span>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
